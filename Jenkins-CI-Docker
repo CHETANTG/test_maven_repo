@@ -28,7 +28,7 @@ pipeline {
       steps{
         script {
          
-         dockerImage = docker.build dockerimagename
+         dockerImage = docker.build chetantg96/tomee:v1
         }
       }
     }
